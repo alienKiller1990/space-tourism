@@ -199,7 +199,7 @@ button {
 
 .about__item:nth-child(odd) {
     flex-direction: row-reverse;
-} 
+}
 
 .about__img {
     max-width: 100%;
@@ -268,4 +268,40 @@ button {
     margin-top: 20px;
     font-size: 12px;
     line-height: 14px;
+}
+
+.how-to {
+    background-image: url(../images/how-to-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.how-to__box {
+    text-align: center;
+}
+
+.how-to__box circle, .how-to__box text, foreignObject {
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.how-to__box g:hover circle {
+    r: 20px;
+    fill: #036CCA;
+}
+
+.how-to__box g:hover text {
+    fill: #036CCA;
+    font-size: 36px;
+}
+
+.how-to__box g:hover foreignObject {
+    color: #036CCA;
+    font-size: 22px;
+}
+
+foreignObject {
+    text-align: left;
 }
