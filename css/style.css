@@ -496,9 +496,76 @@ foreignObject {
     z-index: 5;
 }
 
-.slider__arrow-left{
+.slider__arrow-left {
     left: 75px;
 }
-.slider__arrow-right{
+
+.slider__arrow-right {
     right: 75px;
+}
+
+.contacts {
+    background-color: #010203;
+    padding-bottom: 100px;
+}
+
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__box {
+    width: 500px;
+}
+
+.contacts__title {
+    padding-bottom: 45px;
+}
+
+.contacts__box-text {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 80px;
+}
+
+.contacts__form {}
+
+.contacts__form-input {
+    background-color: #010203;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'sf-pro-display';
+    padding: 20px 0;
+    width: 100%;
+}
+
+.contacts__form-input::placeholder {
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'sf-pro-display';
+}
+
+.contacts__btn{
+    margin-top: 70px;
+    width: 100%;
+}
+
+.contacts__guarnatees {
+    width: 500px;
+}
+
+.contacts__guarnatees-text {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.contacts__guarnatees-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
 }
