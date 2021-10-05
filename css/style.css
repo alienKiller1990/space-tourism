@@ -649,6 +649,31 @@ foreignObject {
     top: 10px;
 }
 
+@media (max-width: 1160px) {
+    .about {
+        text-align: center;
+    }
+    .about__item {
+        display: block;
+    }
+    .about__content {
+        width: 100%;
+    }
+    .about__content-text {
+        display: block;
+    }
+    .about__content-text p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about__img {
+        margin-bottom: 50px;
+    }
+    .about__table {
+        width: 100%;
+    }
+}
+
 @media (max-width: 1024px) {
     .login {
         margin-right: 0;
@@ -735,6 +760,37 @@ foreignObject {
         margin-left: 0;
         margin-top: 20px;
     }
+    .title {
+        padding: 50px 0;
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .about__item {
+        padding-bottom: 50px;
+    }
+    .about__table-tr:first-child {
+        display: none;
+    }
+    .about__table-td {
+        display: block;
+        text-align: right;
+        border-bottom: 1px solid #fff;
+    }
+    .about__table-td:last-child {
+        border: none;
+    }
+    .about__table-td span {
+        display: inline-block;
+    }
+    .about__table-td::before {
+        content: attr(aria-label);
+        float: left;
+    }
+    .about__table-tr+.about__table-tr {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -756,10 +812,10 @@ foreignObject {
     .header__title {
         font-size: 28px;
     }
-    .header__title span{
+    .header__title span {
         font-size: 32px;
     }
-    .header__btn{
+    .header__btn {
         font-size: 16px;
         width: 100%;
     }
